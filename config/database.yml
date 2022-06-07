@@ -27,6 +27,6 @@ production:
   production:
   <<: *default
   adapter: postgresql
-  database: travel_production
-  username: joe_bob
-  password: <%= ENV["secret_password"] %>
+  database: hw4travel_production
+  username: hw4travel
+  password: <%= ENV["HW4TRAVEL_DATABASE_PASSWORD"] %>
